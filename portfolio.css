@@ -1,19 +1,11 @@
-.nav-tabs{
-    box-align: right
-}
-
 .main {
-
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 20px;
     background-color: hsl(261, 44%, 85%);
     border-width: 10px;
-
 }
 .profileimg{
-    max-width: 80%;
-    max-height: 80%;
     align-content: center;
     display: block; /* remove extra space below image */
 }
@@ -21,9 +13,11 @@
     background-color: #593196;
     padding: 10px;
     color: white;
-
+    -ms-flex-align: baseline;
+    margin: 2px;
 }
 .card-deck{
     border: 1px;
     margin: 1px;
 }
+/* adding a comment to save a new file */
