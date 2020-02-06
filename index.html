@@ -14,15 +14,16 @@
 <!-- <div class= "container"> -->
   <nav class="navbar navbar-dark bg-primary" id="navbarColor01"">
 
-    <div class= "col-xs-6">
+    <div class= "col-sm-6">
     <header><h1 class="text-white">Amy Hollinger</h1></header>
     </div>
 <!-- Center navbar when it wraps -->
 <!-- Remove side padding on col-xs -->
 
-      <div class= "col-sm-6">
-      <nav class="navbar-nav justify-content-end navbar-expand">
-        <li class="nav-item active">
+      <div class= "col-sm-6 justify-content-end">
+      <nav class="navbar-nav navbar-expand">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
@@ -33,8 +34,7 @@
         </li>
       </ul>
     </div>
-      </nav>
-      <!-- </div> -->
+  </nav>
 
 <!-- Main Body of Page -->
 
@@ -44,20 +44,20 @@
 <header><h1>About Me</h1></header>
 <hr> 
 <!-- change line color to white, or dark purple -->
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora reprehenderit quisquam enim necessitatibus dolores commodi officiis, ducimus ut eveniet dolor quam eos voluptas reiciendis consequatur beatae voluptates. Officia, laboriosam at!</p>
+<div class= "row">
 
-<img class="profileimg" src= "procropped.jpeg" width=300 height= 268 img-align="center">
+<div class= "col-xs-4 col-sm-12" >
 
-<!-- Why can't I add a left side margin to the section (fixedthis: padding, duh), or arrange the content in the center? flexbox doesn't seem to be working.-->
+<img class="profileimg img-responsive" src= "procropped.jpeg" width=300 height=268 img-align="center">
+</div>
+
+  <div class= "col-md-6 pull-right"></div>
+<p>Current student of UPenn LPS Coding Boot Camp. Ready to graduate as a junior developer!</p>
+<p>My background is in youth programming, most recently as a STEM (Science, Technology, Engineering, and Math) program specialist. I didn't have much of a STEM background when I started four years ago, but I've always liked trying to figure out how things worked. Coding seems to be a great way to put that into practice.</p>
+<p>In other news, I like traveling, National Parks, outdoor activities, and working in my own mini makerspace. Working on a goal with a friend to run a race in every state. When we can make time for it! We've completed state 25 (New York) as of this writing!</p>
+  </div>
+</div>
 </section>
-
-        <!-- <section class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-          <div class="card-header"><h1>Header</h1></div>
-           class="card-body">
-            <h4 class="card-title">Primary card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </section> -->
-
 
 </body>
 </html>
