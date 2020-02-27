@@ -1,100 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="portfolio.css">
 
-    <title>Amy Hollinger | Portfolio</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="portfolio.css">
+
+  <title>Amy Hollinger | Portfolio</title>
 </head>
-<body>  
-<!-- <div class= "container"> -->
+
+<body>
+  <!-- <div class= "container"> -->
   <nav class="navbar navbar-dark bg-primary" id="navbarColor01">
 
-    <div class= "col-sm-6">
-    <header><h1 class="text-white">Amy Hollinger</h1></header>
+    <div class="col-sm-6">
+      <header>
+        <h1 class="text-white">Amy Hollinger</h1>
+      </header>
     </div>
-<!-- Center navbar when it wraps -->
-<!-- Remove side padding on col-xs -->
+    <!-- Center navbar when it wraps -->
+    <!-- Remove side padding on col-xs -->
 
-      <div class= "col-sm-6 justify-content-end">
+    <div class="col-sm-6 justify-content-end">
       <nav class="navbar-nav navbar-expand">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
     </div>
   </nav>
 
-<!-- Main Body of Page -->
+  <!-- Main Body of Page -->
 
-<!-- Add a row(?) to insert a space between Nav and Main  -->
+  <!-- Add a row(?) to insert a space between Nav and Main  -->
 
-<section class="main">
-    <header><h1>Portfolio</h1></header>
-    <hr> 
+  <section class="main">
+    <header>
+      <h1 class ="text-white">Portfolio</h1>
+    </header>
+    <hr>
     <!-- change line color to white, or dark purple -->
 
     <!-- Card Decks working, need to redefine the break point on sm screens -->
     <!-- Also need to make card-img-overlay responsive as well? -->
 
     <div class="card-deck">
-      <section class="card border-secondary mb-3" style="max-width: 20rem;" img>
+      <section class="card border-secondary mb-3" style="max-width: 20rem"; img>
         <div class="card-body">
-            <img class="card-img" src="img/cliffs-of-moher.jpg" alt="Cliffs of Moher">
-        <div class="card-img-overlay">
-          <h4 class="card-title card-img-overlay-bgcolor">JS Password Generator</h4>
-        </div>
+          <img a class="card-img" src="img/cliffs-of-moher.jpg" alt="Cliffs of Moher">
+          <div class="card-img-overlay">
+            <h4 class="card-title card-img-overlay-bgcolor">What2Do App</a></h4>
+          </div>
+          <div class="card-body">
+            <a class="card-link" href="https://thegetoutgirl.github.io/what2do/">Deployed App</a>
+            <a class="card-link" href="https://github.com/thegetoutgirl/what2do">Github Repository</a>
+          </div>
       </section>
 
       <section class="card border-secondary mb-3" style="max-width: 20rem;" img>
         <div class="card-body">
-            <img class="card-img" src="img/north-london.jpg" alt="North London">
-        <div class="card-img-overlay">
-          <h4 class="card-title card-img-overlay-bgcolor">Project 2</h4>
-        </div>
+          <img class="card-img" src="img/north-london.jpg" alt="North London">
+          <div class="card-img-overlay">
+            <h4 class="card-title card-img-overlay-bgcolor">Code Quiz</h4>
+          </div>
+          <div class="card-body">
+            <a class="card-link" href="http://thegetoutgirl.github.io/quiz-app/">Deployed App</a>
+            <a class="card-link" href="https://github.com/thegetoutgirl/quiz-app">Github Repository</a>
+          </div>
+        </div>  
       </section>
 
       <section class="card border-secondary mb-3" style="max-width: 20rem;" img>
         <div class="card-body">
-            <img class="card-img" src="img/brigantine.jpg" alt="Sunset on Brigantine Beach">
-        <div class="card-img-overlay">
-          <h4 class="card-title card-img-overlay-bgcolor">Project 3</h4>
-        </div>
+          <img class="card-img" src="img/brigantine.jpg" alt="Sunset on Brigantine Beach">
+          <div class="card-img-overlay">
+            <h4 class="card-title card-img-overlay-bgcolor">Day Planner</h4>
+          </div>
       </section>
     </div>
 
     <div class="card-deck">
       <section class="card border-secondary mb-3" style="max-width: 20rem;" img>
         <div class="card-body">
-            <img class="card-img" src="img/lyme-regis.jpg" alt="Lyme Regis, Devon">
-        <div class="card-img-overlay">
-          <h4 class="card-title card-img-overlay-bgcolor">Project 4</h4>
-        </div>
+          <img class="card-img" src="img/lyme-regis.jpg" alt="Lyme Regis, Devon">
+          <div class="card-img-overlay">
+            <h4 class="card-title card-img-overlay-bgcolor">Weather Dashboard</h4>
+          </div>
       </section>
- 
+
       <section class="card border-secondary mb-3" style="max-width: 20rem;" img>
         <div class="card-body">
-            <img class="card-img" src="img/muir-woods.jpg" alt="Muir Woods National Monument">
-        <div class="card-img-overlay">
-          <h4 class="card-title card-img-overlay-bgcolor">Project 5</h4>
+          <img class="card-img" src="img/muir-woods.jpg" alt="Muir Woods National Monument">
+          <div class="card-img-overlay">
+            <h4 class="card-title card-img-overlay-bgcolor">Project 5</h4>
+          </div>
         </div>
       </section>
- 
-    </div>
 
-      
-        
-</section>
+      <section class="card border-secondary mb-3" style="max-width: 20rem;" img>
+        <div class="card-body">
+          <img class="card-img" src="img/muir-woods.jpg" alt="Muir Woods National Monument">
+          <div class="card-img-overlay">
+            <h4 class="card-title card-img-overlay-bgcolor">Project 6</h4>
+          </div>
+        </div>
+      </section>
 
 </body>
+
 </html>

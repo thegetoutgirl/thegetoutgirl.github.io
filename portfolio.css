@@ -2,7 +2,7 @@
     width: 80%;
     margin: auto;
     padding: 20px;
-    background-color: hsl(261, 44%, 85%);
+    background-color: #B18FE3;
     border-width: 10px;
 }
 .profileimg{
@@ -14,10 +14,17 @@
     padding: 10px;
     color: white;
     -ms-flex-align: baseline;
-    margin: 2px;
 }
 .card-deck{
-    border: 1px;
-    margin: 1px;
+    border: 0px;
+    margin: 0px;
+}
+
+.card-body-link{
+    -webkit-box-flex:1;
+    -ms-flex:1 1 auto;
+    flex:1 1 auto;
+    min-height:1px;
+    padding-bottom:0;
 }
 /* adding a comment to save a new file */
