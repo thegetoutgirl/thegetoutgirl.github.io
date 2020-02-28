@@ -2,10 +2,6 @@
     background-image: linear-gradient(#593196, #884BE3);
   }
 
-.gradient-light {
-    /* background-image: linear-gradient(#884BE3, #C6A1FF,#884BE3); */
-  }
-
 .active {
     color: #593196;
     background-color: #B787FF;
