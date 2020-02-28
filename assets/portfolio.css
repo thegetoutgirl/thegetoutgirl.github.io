@@ -1,8 +1,36 @@
+.gradient-dark {
+    background-image: linear-gradient(#593196, #884BE3);
+  }
+
+.gradient-light {
+    /* background-image: linear-gradient(#884BE3, #C6A1FF,#884BE3); */
+  }
+
+.active {
+    color: #593196;
+    background-color: #B787FF;
+}
+
+.nav-title {
+    color: white;
+    text-shadow: 2px 2px #614F7D;
+    font-family: 'Handlee', 'Arial', 'Sans-Serif';
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.page-title {
+    color: #593196;
+    text-shadow: 2px 2px #d4c8ea;
+    font-family: 'Handlee', 'Arial', 'Sans-Serif';
+    font-weight: bold;
+}
+
 .main {
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 20px;
-    background-color: #B18FE3;
+    /* background-color: #B787FF; */
     border-width: 10px;
 }
 .profileimg{
@@ -16,8 +44,13 @@
     -ms-flex-align: baseline;
 }
 .card-deck{
-    border: 0px;
-    margin: 0px;
+   margin: 0px;
+}
+
+.card-body{
+    border: 3px;
+    border-color: #593196;
+    border-radius: 10px;
 }
 
 .card-body-link{
