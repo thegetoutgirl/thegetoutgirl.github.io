@@ -3,10 +3,13 @@
   }
 
 .active {
-    color: #593196;
+    color: #3B2163;
     background-color: #B787FF;
 }
 
+#active-nav {
+    color: #3B2163;
+}
 .nav-title {
     color: white;
     text-shadow: 2px 2px #614F7D;
