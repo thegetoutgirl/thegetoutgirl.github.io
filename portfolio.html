@@ -23,6 +23,7 @@
     </div>
     <!-- Center navbar when it wraps -->
     <!-- Remove side padding on col-xs -->
+    <!-- For second navbar column, push right...not sure why it's not working with justify-end -->
 
     <div class="col-sm-6 justify-content-end">
       <nav class="navbar-nav navbar-expand">
@@ -46,24 +47,22 @@
 
   <!-- Main Body of Page -->
 
-  <!-- Add a row(?) to insert a space between Nav and Main  -->
-
-  <section class="main gradient-light">
+  <section class="main">
     <header>
       <h1 class="page-title">Portfolio</h1>
     </header>
     <hr>
-    <!-- change line color to white, or dark purple -->
+    <!-- change hr color to dark purple -->
 
-    <!-- Card Decks working, need to redefine the break point on sm screens -->
-    <!-- Also need to make card-img-overlay responsive as well? -->
+    <!-- Card Decks working, are not as responsive as I would like? Can't seem to make them break once they are set.-->
+    <!--links in the card body don't work, can't figure out why. Using this link to expand card functionality, but those instructions aren't working here? https://www.w3schools.com/bootstrap4/bootstrap_cards.asp  -->
 
     <div class="card-deck">
       <section class="card border-secondary mb-3" style="max-width: 20rem"; img>
         <div class= "card-body">
           <img a class="card-img" src="img/what2do.png" alt="Screenshot of What2Do App">
           <div class="card-img-overlay">
-            <h4 class="card-title card-img-overlay-bgcolor">What2Do App</a></h4>
+            <h4 class="card-title card-img-overlay-bgcolor gradient-dark">What2Do App</a></h4>
           </div>
           <div class="card-body">
             <a href="https://thegetoutgirl.github.io/what2do/" class="card-link">Deployed App</a>
@@ -76,7 +75,7 @@
         <div class="card-body">
           <img class="card-img" src="img/code-quiz.png" alt="Screenshot of National Parks Quiz App">
           <div class="card-img-overlay">
-            <h4 class="card-title card-img-overlay-bgcolor">Code Quiz</h4>
+            <h4 class="card-title card-img-overlay-bgcolor gradient-dark">Code Quiz</h4>
           </div>
           <div class="card-body">
             <a class="card-link" href="http://thegetoutgirl.github.io/quiz-app/">Deployed App</a>
@@ -89,7 +88,7 @@
         <div class="card-body">
           <img class="card-img" src="img/north-london.jpg" alt="North London, England">
           <div class="card-img-overlay">
-            <h4 class="card-title card-img-overlay-bgcolor">Day Planner</h4>
+            <h4 class="card-title card-img-overlay-bgcolor gradient-dark">Day Planner</h4>
           </div>
       </section>
     </div>
@@ -99,7 +98,7 @@
         <div class="card-body">
           <img class="card-img" src="img/lyme-regis.jpg" alt="Lyme Regis, Devon England">
           <div class="card-img-overlay">
-            <h4 class="card-title card-img-overlay-bgcolor">Weather Dashboard</h4>
+            <h4 class="card-title card-img-overlay-bgcolor gradient-dark">Weather Dashboard</h4>
           </div>
       </section>
 
@@ -107,7 +106,7 @@
         <div class="card-body">
           <img class="card-img" src="img/death-valley.jpg" alt="Death Valley National Park, California USA">
           <div class="card-img-overlay">
-            <h4 class="card-title card-img-overlay-bgcolor">Project 5</h4>
+            <h4 class="card-title card-img-overlay-bgcolor gradient-dark">Project 5</h4>
           </div>
         </div>
       </section>
@@ -116,7 +115,7 @@
         <div class="card-body">
           <img class="card-img" src="img/cliffs-of-moher.jpg" alt="Cliffs of Moher, Co. Galway Ireland">
           <div class="card-img-overlay">
-            <h4 class="card-title card-img-overlay-bgcolor">Project 6</h4>
+            <h4 class="card-title card-img-overlay-bgcolor gradient-dark">Project 6</h4>
           </div>
         </div>
       </section>
