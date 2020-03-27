@@ -10,12 +10,18 @@
 #active-nav {
     color: #3B2163;
 }
+
+.navbar {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 .nav-title {
     color: white;
     text-shadow: 2px 2px #614F7D;
     font-family: 'Handlee', 'Arial', 'Sans-Serif';
     font-size: 36px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 .page-title {
@@ -59,4 +65,13 @@
     min-height:1px;
     padding-bottom:0;
 }
-/* adding a comment to save a new file */
+
+a:hover {
+    color: #b787FF;
+}
+.portf-btn-row {
+    width:auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+    /* adding a comment to save a new file */

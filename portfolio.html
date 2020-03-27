@@ -16,7 +16,7 @@
   <!-- <div class= "container"> -->
   <nav class="navbar navbar-dark bg-primary gradient-dark" id="navbarColor01">
 
-    <div class="col-sm-6">
+    <div>
       <header>
         <h1 class="nav-title">Amy Hollinger</h1>
       </header>
@@ -25,7 +25,7 @@
     <!-- Add a subtitle - in a 3rd column -->
     <!-- For second navbar column, push right...not sure why it's not working with justify-content-end or flex-end -->
 
-    <div class="col-sm-6 flex-end">
+    <div class="flex-end">
       <nav class="navbar-nav navbar-expand">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
@@ -63,40 +63,49 @@
     <div class="card-deck">
 
       <!-- Card 1 -->
+
+            <section class="card border-secondary mb-3" style="max-width: 20rem">
+              <div class="card-img-top">
+                <h4 class="card-title card-img-overlay-bgcolor gradient-dark">collabHub</h4>
+              </div>
+              <div class="card-body">
+                <img class= "card-img" src="img/collabHub.png" alt="screenshot of collabHub app">
+                <div class="portf-btn-row">
+                  <a class="card-link" href="https://collab-hub.herokuapp.com/" target= "_blank">Deployed App</a>
+                <a class="card-link" href="https://github.com/thegetoutgirl/collabHub" target= "_blank">Github Repo</a>
+                  </div>
+              </div>
+            </section>
+      
+      <!-- Card 2 -->
       <section class="card border-secondary mb-3">
         <div class="card-img-top">
             <h4 class="card-title card-img-overlay-bgcolor gradient-dark">What2Do App</h4>
           </div>
         <div class= "card-body">
           <img a class="card-img" src="img/what2do.png" alt="Screenshot of What2Do App">
-            <a href="https://thegetoutgirl.github.io/what2do/" class="card-link">Deployed App</a>
-            <a href="https://github.com/thegetoutgirl/what2do" class="card-link">Github Repository</a>
-        </div>
-      </section>
+          <div class="portf-btn-row">
+            <a href="https://thegetoutgirl.github.io/what2do/" target= "_blank" class="card-link">Deployed App</a>
+            <a href="https://github.com/thegetoutgirl/what2do" target="_blank" class="card-link">Github Repo</a>
+          </div>
+          </div>
+        </section>
 
-      <!-- Card 2 -->
+      <!-- Card 3 -->
       <section class="card border-secondary mb-3" style="max-width: 20rem">
         <div class="card-img-top">
           <h4 class="card-title card-img-overlay-bgcolor gradient-dark">National Parks Quiz</h4>
         </div>
         <div class="card-body">
           <img class="card-img" src="img/code-quiz.png" alt="Screenshot of National Parks Quiz App">
-            <a class="card-link" href="http://thegetoutgirl.github.io/quiz-app/">Deployed App</a>
-            <a class="card-link" href="https://github.com/thegetoutgirl/quiz-app">Github Repository</a>
-        </div>  
+          <div class="portf-btn-row">
+            <a class="card-link" href="http://thegetoutgirl.github.io/quiz-app/" target="_blank">Deployed App</a>
+            <a class="card-link" href="https://github.com/thegetoutgirl/quiz-app" target="_blank">Github Repo</a>
+            </div>
+          </div>  
       </section>
 
-      <!-- Card 3 -->
-      <section class="card border-secondary mb-3" style="max-width: 20rem">
-        <div class="card-img-top">
-          <h4 class="card-title card-img-overlay-bgcolor gradient-dark">Weather Dashboard</h4>
-        </div>
-        <div class="card-body">
-          <img class="card-img" src="img/north-london.jpg" alt="North London, England">
-          <a class="card-link" href="#">Camden Town, London England</a>
-          <a class="card-link" href="#"></a>
-        </div>
-      </section>
+
     </div>
 
     <!-- Card Deck 2 - 2nd Row -->
@@ -105,24 +114,28 @@
       <!-- Card 4 -->
       <section class="card border-secondary mb-3" style="max-width: 20rem">
         <div class="card-img-top">
-          <h4 class="card-title card-img-overlay-bgcolor gradient-dark">Day Planner</h4>
+          <h4 class="card-title card-img-overlay-bgcolor gradient-dark">NoteTaker</h4>
         </div>
         <div class="card-body">
           <img class="card-img" src="img/lyme-regis.jpg" alt="Lyme Regis, Devon England">
-          <a class="card-link" href="#">Lyme Regis, Devon England</a>
-          <a class="card-link" href="#"></a>
+          <div class="portf-btn-row">
+          <a class="card-link" href="#" target= "_blank">Lyme Regis, Devon England</a>
+          <a class="card-link" href="#" target= "_blank"></a>
+          </div>
         </div>
       </section>
 
       <!-- Card 5 -->
       <section class="card border-secondary mb-3" style="max-width: 20rem">
         <div class="card-img-top">
-          <h4 class="card-title card-img-overlay-bgcolor gradient-dark">Project 5</h4>
+          <h4 class="card-title card-img-overlay-bgcolor gradient-dark">Weather Dashboard</h4>
         </div>
         <div class="card-body">
           <img class="card-img" src="img/death-valley.jpg" alt="Death Valley National Park, California USA">
-          <a class="card-link" href="#">Death Valley National Park, California USA</a>
-          <a class="card-link" href="#"></a>
+          <div class="portf-btn-row">
+          <a class="card-link" href="#" target= "_blank">Death Valley National Park, California USA</a>
+          <a class="card-link" href="#" target= "_blank"></a>
+          </div>
         </div>
       </section>
 
@@ -132,8 +145,10 @@
         </div>
         <div class="card-body">
           <img class="card-img" src="img/cliffs-of-moher.jpg" alt="Cliffs of Moher, Co. Galway Ireland">
-          <a class="card-link" href="#">Cliffs of Moher, Co. Galway, Ireland</a>
-          <a class="card-link" href="#"></a>
+          <div class="portf-btn-row">
+          <a class="card-link" href="#" target= "_blank">Cliffs of Moher, Co. Galway, Ireland</a>
+          <a class="card-link" href="#" target= "_blank"></a>
+        </div>
         </div>
       </section>
     </div>
