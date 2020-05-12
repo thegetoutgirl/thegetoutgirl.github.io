@@ -52,11 +52,11 @@
    margin: 0px;
 }
 
-.card-body{
-    border: 3px;
-    border-color: #593196;
-    border-radius: 10px;
-}
+/* .border-secondary {
+    border: 5px!important;
+    border-color: #593196!important;
+    border-radius: 10px!important;
+} */
 
 .card-body-link{
     -webkit-box-flex:1;
@@ -74,4 +74,8 @@ a:hover, a:visited {
     flex-wrap: wrap;
     text-align: center;
 }
-    /* adding a comment to save a new file */
+
+.card-img-border {
+    border-color: #593196!important;
+    border: 5px;
+}
